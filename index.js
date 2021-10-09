@@ -5,7 +5,7 @@ fs.readFile('welcome.txt', function (error, value) {
     if (error) {
         return console.log(error);
     }
-    console.log("succesfull", value.toString());//ascii
+    console.log("succesfullll", value.toString());//ascii
 })
 
 // const example = fs.readFileSync('welcome.txt')
@@ -19,5 +19,6 @@ fs.writeFile('welcome.txt', 'hello World', function (error) {
 
 //file system
 console.log("hello");
+console.log("welcome");
 
 //NPM (node packing module)
